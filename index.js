@@ -21,7 +21,7 @@ client.registry
 
 client.once('ready', () => {
     console.log(`Logged in as ${client.user.tag}! (${client.user.id})`);
-    client.user.setActivity('with Pizza');
+    client.user.setActivity('.order command');
 });
 
 client.on('error', console.error);

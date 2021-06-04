@@ -10,12 +10,12 @@ const client = new CommandoClient({
 });
 
 client.registry
-    .registerDefaultTypes()
+    // .registerDefaultTypes()
     .registerGroups([
         ['user', 'User Commands'],
     ])
-    .registerDefaultGroups()
-    .registerDefaultCommands()
+    // .registerDefaultGroups()
+    // .registerDefaultCommands()
     .registerCommandsIn(path.join(__dirname, 'commands'));
 
 
